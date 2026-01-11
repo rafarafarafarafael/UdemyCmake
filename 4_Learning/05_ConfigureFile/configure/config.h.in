@@ -1,0 +1,15 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+#include <cstdio>
+#include <cstdint>
+#include <cstring>
+
+static constexpr char PROJECT_NAME[] = "@PROJECT_NAME@";
+static constexpr char PROJECT_VERSION[] = "@PROJECT_VERSION@";
+
+static constexpr std::uint32_t PROJECT_VERSION_MAJOR{@PROJECT_VERSION_MAJOR@};
+static constexpr std::uint32_t PROJECT_VERSION_MINOR{@PROJECT_VERSION_MINOR@};
+static constexpr std::uint32_t PROJECT_VERSION_PATCH{@PROJECT_VERSION_PATCH@};
+
+#endif
